@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-signer/static/css/main.073c9b0a.css",
+    "main.js": "/test-signer/static/js/main.2626ccb3.js",
+    "static/js/787.e9e634e7.chunk.js": "/test-signer/static/js/787.e9e634e7.chunk.js",
+    "index.html": "/test-signer/index.html",
+    "main.073c9b0a.css.map": "/test-signer/static/css/main.073c9b0a.css.map",
+    "main.2626ccb3.js.map": "/test-signer/static/js/main.2626ccb3.js.map",
+    "787.e9e634e7.chunk.js.map": "/test-signer/static/js/787.e9e634e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2626ccb3.js"
+  ]
+}
