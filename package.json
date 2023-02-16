@@ -20,7 +20,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "file-saver": "^2.0.5",
-    "jimp": "^0.22.4",
     "jsonld": "^8.1.0",
     "jszip": "^3.10.1",
     "qrcode": "^1.5.1",
