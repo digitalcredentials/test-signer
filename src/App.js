@@ -86,7 +86,9 @@ async function sign(data, setData) {
           });
           signedCreds.push({vc,credData})
           const qrImage = await getQR(vc)
-          cborQRs.push({qrImage,credData})
+          if (qrImage) {
+            cborQRs.push({qrImage,credData})
+          }       
     } catch (e) {
           console.log("Error in the signing try block:")
           console.log(e)
@@ -102,10 +104,13 @@ async function sign(data, setData) {
 } 
 
 async function getQR(verifiableCredential) {
-  const vp = await createPresentation({verifiableCredential});
-  const {imageDataUrl} = await toQrCode({vp, documentLoader});
-  let partToRemove = "data:image/gif;base64,"
-  return imageDataUrl.slice(partToRemove.length)
+  if (JSON.stringify(verifiableCredential).replace(/\s+/g, '').length < 4000) {
+    const vp = await createPresentation({verifiableCredential});
+    const {imageDataUrl} = await toQrCode({vp, documentLoader});
+    let partToRemove = "data:image/gif;base64,"
+    return imageDataUrl.slice(partToRemove.length)
+  } 
+  return null
 }
  
 function App() {

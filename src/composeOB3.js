@@ -23,7 +23,7 @@ export function composeOB3 (credentialRecord) {
           "url": credentialRecord.issuerURL
           //"image": credentialRecord.issuerImage
         },
-        "issuanceDate": "2021-01-19T18:22:34.772810+00:00", //(new Date()).toISOString(),  //
+        "issuanceDate": (new Date()).toISOString(),//"2023-04-06T23:22:34.772810+00:00", //(new Date()).toISOString(),  //
         "credentialSubject": {
           "type": [
             "AchievementSubject"
