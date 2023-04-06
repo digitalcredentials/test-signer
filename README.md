@@ -78,4 +78,4 @@ If there is a github token included in the config, then it assumes you want to s
 
 *** Signing DID seed
 
-You can supply your own seed or leave that field blank and the app will generate a random seed for you (and set it in the config so you can copy it for later use if you like)
+You can supply your own seed or leave that field blank and the app will generate a random seed for you (and set it in the config so you can copy it for later use if you like). Please note DCC tools will show a credential created with the generated seed as not verified as the did does not exist in any registry the tools recognize.
