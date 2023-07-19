@@ -10,7 +10,7 @@
     "@digitalbazaar/vpqr": "^3.0.0",
     "@digitalcredentials/bnid": "^2.1.2",
     "@digitalcredentials/did-method-key": "^2.0.3",
-    "@digitalcredentials/security-document-loader": "^1.0.0",
+    "@digitalcredentials/security-document-loader": "^3.1.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
@@ -35,8 +35,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start-https": "PORT=3006 HTTPS=true react-scripts start",
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

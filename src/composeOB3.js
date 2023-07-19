@@ -6,7 +6,7 @@ export function composeOB3 (credentialRecord) {
     const credential= {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
-          "https://purl.imsglobal.org/spec/ob/v3p0/context.json"
+          "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.1.json"
         ],
         "id": "urn:uuid:c9ae1c60-5b8b-463c-bf0a-0bf26deca25e",
         "type": [
