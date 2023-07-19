@@ -1,12 +1,12 @@
 # test-signer
 
-Simple react app that generates and signs OBv3 Verifiable Credentials directly in the browser, saving them to either a zip file or a github repository of your choosing.
+Simple react app that generates and signs OBv3.0.1 Verifiable Credentials directly in the browser, saving them to either a zip file or a github repository of your choosing.
 
-You can try it directly from the Github page for this repository:
+To use this, clone the Github repository to your machine, then switch into the cloned directory and run 'npm install'. When that finishes, run 'npm start'. That should open up a web browser in which the app is running.
 
-[https://jchartrand.github.io/test-signer](https://jchartrand.github.io/test-signer)
+(Note that this of course assumes you've got git and node installed on your machine)
 
-Just paste in a json 'data' object into the text box (a working example is already included), click Go, and away it goes, generating a folder for each credential, containing:
+Now just paste in a json 'data' object into the text box (a working example is already included), click Go, and away it goes, generating a folder for each credential, containing:
 
 - a signed OBv3 verifiable credential
 - a CBOR-LD encoded QR that contains the same full VC
