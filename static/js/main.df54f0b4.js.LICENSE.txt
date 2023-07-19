@@ -99,6 +99,10 @@ https://github.com/nodeca/pako/blob/main/LICENSE
  */
 
 /*!
+ * Copyright (c) 2023 Digital Credentials Consortium. All rights reserved.
+ */
+
+/*!
  * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
  *
  * Copyright (c) 2014-2017, Jon Schlinkert.
