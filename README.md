@@ -1,6 +1,6 @@
 # test-signer
 
-Simple react app that generates and signs OBv3.0.1 Verifiable Credentials directly in the browser, saving them to either a zip file or a github repository of your choosing.
+Simple react app that generates and signs OBv3.0.2 Verifiable Credentials directly in the browser, saving them to either a zip file or a github repository of your choosing.
 
 ## Installation
 
