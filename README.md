@@ -2,6 +2,8 @@
 
 Simple react app that generates and signs OBv3.0.2 Verifiable Credentials directly in the browser, saving them to either a zip file or a github repository of your choosing.
 
+One advantage in saving to a github repository is that you thereby effectively create a public url for each credential, which might more easily be shared than a file (LinkedIn for example allows adding credentials that point to a url). If you opt to save to a Github repo, this app will also generate a QR code that points to the URL.
+
 ## Installation
 
 There are at least two ways to 'install' this:
