@@ -86,7 +86,7 @@ You can explicitly set an id for each credential, using the credID field, or you
 
 urn:uuid:4172ee28-8a67-4a30-894a-f0131a26ba09
 
-- GITHUB this set the id to the location in github to which the credential's json file is saved, e.g., 
+- GITHUB - will set the id to the location in github to which the credential's json file is saved, like the following example (note this is not a live link): 
 
 https://raw.githubusercontent.com/jchartrand/dcc-test-creds/main/another/JamesChartrand2.json
 
